@@ -36,7 +36,7 @@ Skeleton of ‘solution.sh’ file:
 
 
 
-<b> display(): </b>
+<b>- display(): </b>
 
 This function displays the menu and prompts the user to select an option
 The output of the function is as follows:
@@ -49,7 +49,7 @@ The output of the function is as follows:
 5.	Exit
 Enter your choice: 
 
-<b> login (): </b>
+<b>- login (): </b>
 
 This function will accept the username and password as the command line argument
 The entered username must match the username and password present in Users.txt file
@@ -60,7 +60,7 @@ Else,
 Return with status code 8
 
 
-<b> menu(): </b>
+<b>- menu(): </b>
 
 This function should accept the ‘choice’ selected from the display function as a command line argument
 
@@ -85,7 +85,7 @@ If the choice is 5 then, exit with the status code 6
 Else, return with the status code 7
 
 
-<b> add_employee(): </b>
+<b>- add_employee(): </b>
 
 This function accepts name, deptartment, mobile number and salary as command line arguments
 
@@ -103,7 +103,7 @@ Return with status code 9
 
 Else, return with status code 1
 
-<b> delete_employee(): </b>
+<b>- delete_employee(): </b>
 
 This function accepts the emp_num as a command line argument
 Check whether the given ‘emp_num’ is present in ‘Employee.txt’ file
@@ -114,7 +114,7 @@ Return with status code 12
 
 Else, return with status code 2
 
-<b> update_details(): </b>
+<b>- update_details(): </b>
 
 This function accepts the emp_num, name, department, mobile number and salary as command line arguments
 Check whether the given ‘emp_num’ is present in ‘Employee.txt’ file
@@ -136,7 +136,7 @@ Else, return with status code 3
 
 Else, return with status code 4
 
-</b> view_details(): </b>
+</b>- view_details(): </b>
 
 This function accepts the dept as a command line argument
 Check whether the dept is present in the ‘employee.txt’ file
