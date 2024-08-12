@@ -2,7 +2,7 @@
 
 Online Employee Management System
 
-       Online Employee Management System is a Unix based application used to manage the employees of ABC company. This application allows to add, delete, and update the details of the employee.  The users can also view the details of the employees.
+Online Employee Management System is a Unix based application used to manage the employees of ABC company. This application allows to add, delete, and update the details of the employee.  The users can also view the details of the employees.
 
 Write a shell scrip to automate the above process for Online Employee Management System
 
@@ -36,7 +36,7 @@ Skeleton of ‘solution.sh’ file:
 
 
 
-### display(): 
+<b> display(): </b>
 
 This function displays the menu and prompts the user to select an option
 The output of the function is as follows:
@@ -48,7 +48,7 @@ The output of the function is as follows:
 5.	Exit
 Enter your choice: 
 
-### login ():
+<b> login (): </b>
 
 This function will accept the username and password as the command line argument
 The entered username must match the username and password present in Users.txt file
@@ -57,7 +57,7 @@ Else,
 Return with status code 8
 
 
-### menu():
+<b> menu(): </b>
 
 This function should accept the ‘choice’ selected from the display function as a command line argument
 If the choice is 1 then,
@@ -76,7 +76,7 @@ If the choice is 5 then, exit with the status code 6
 Else, return with the status code 7
 
 
-### add_employee():
+<b> add_employee(): </b>
 
 This function accepts name, deptartment, mobile number and salary as command line arguments
 Validation:
@@ -99,7 +99,7 @@ After successful deletion display “Employee Deleted Successfully”
 Return with status code 12
 Else, return with status code 2
 
-### update_details():
+<b> update_details(): </b>
 
 This function accepts the emp_num, name, department, mobile number and salary as command line arguments
 Check whether the given ‘emp_num’ is present in ‘Employee.txt’ file
@@ -116,7 +116,7 @@ Return status code 10
 Else, return with status code 3
 Else, return with status code 4
 
-### view_details():
+</b> view_details(): </b>
 
 This function accepts the dept as a command line argument
 Check whether the dept is present in the ‘employee.txt’ file
